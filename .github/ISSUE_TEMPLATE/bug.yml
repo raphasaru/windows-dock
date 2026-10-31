@@ -1,0 +1,56 @@
+name: Bug
+description: Algo não funcionou como deveria
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: O que aconteceu?
+      description: E o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir
+      placeholder: |
+        1. Abri a Dock
+        2. Cliquei em ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: Versão da Dock
+      description: Aparece no menu do ícone da bandeja (ex. Windows Dock 0.1.0).
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Monitores e escala
+      placeholder: ex. 2 monitores, principal 2560x1440 em 125%
+  - type: checkboxes
+    id: options
+    attributes:
+      label: Opções ligadas
+      options:
+        - label: Substituir a barra de tarefas
+        - label: Ocultar completamente a barra de tarefas
+        - label: Modo Smart
+        - label: Ocultar automaticamente a Dock
+  - type: textarea
+    id: log
+    attributes:
+      label: Log e prints
+      description: |
+        Arraste aqui o arquivo mais recente de `%LOCALAPPDATA%\com.saru.windowsdock\logs`
+        e, se puder, um print ou vídeo curto.

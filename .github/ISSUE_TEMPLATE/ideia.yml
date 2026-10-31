@@ -1,0 +1,14 @@
+name: Ideia ou sugestão
+description: Algo que deixaria a Dock melhor
+labels: [ideia]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Qual a ideia?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Por que seria útil para você?
