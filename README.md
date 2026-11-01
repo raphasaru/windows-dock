@@ -1,7 +1,7 @@
 # Windows Dock — beta para testers
 
 Uma dock inspirada no macOS para Windows 10/11: ícones com magnificação, apps abertos, e um modo
-"Smart" com sistema, clima, mídia e atalhos. Ela não substitui o Explorer e não precisa de
+"Smart" com sistema, clima, mídia, atalhos e jogos. Ela não substitui o Explorer e não precisa de
 administrador.
 
 > Este repositório só distribui os instaladores de teste. O código-fonte não é público.
